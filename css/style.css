@@ -158,6 +158,8 @@ footer .copyright strong{color: #fff;}
 
 }
 @media screen and (max-width: 520px){
+        .wrap-2 .row{height: auto; padding: 50px 0px;}
+
         .wrap-3 .about{padding: 20px 0px;}
 }
 @media screen and (max-width: 420px){
