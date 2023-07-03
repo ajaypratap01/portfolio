@@ -107,8 +107,8 @@ span{display: inline-block;}
 .wrap-5 .row .col-4 .card strong{ word-break: keep-all;}
 
 .wrap-6 .col-12 h2{font-size: 2rem; color: #000; text-align: center; margin: 20px 0px;}
-
-.wrap-6 .card{ text-align: center; box-shadow: 0 0 30px rgba(214, 215, 216, 0.6); margin: 20px 0px; height: auto; padding: 20px;}
+.wrap-6 .col-6{margin: 50px 0px;}
+.wrap-6 .card{ text-align: center; box-shadow: 0 0 30px rgba(214, 215, 216, 0.6); margin: 20px 0px; height: 100%; padding: 20px;}
 
 .wrap-6 .card  span{font-size: 2rem; padding: 30px; margin: 10px; border: 2px dashed #e03a3c; border-radius: 50%; color: #e03a3c; display: inline-block;}
 .wrap-6 .card h3{margin: 10px 0px; color: #000;}
