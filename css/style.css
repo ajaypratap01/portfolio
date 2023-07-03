@@ -69,7 +69,7 @@ span{display: inline-block;}
 .wrap-2 .row h3{font-size: 2rem; color: #fff;}
 
 /* .wrap-3 .container{ margin-top: 50px;} */
-.wrap-3 .about{padding: 100px 50px; margin: 50px 0px; background-color: #fff; box-shadow: 0px 4px 4px 0 rgba(0, 0, 0, 0.08), 0 0px 10px 0 rgba(0, 0, 0, 0.8);}
+.wrap-3 .about{padding: 100px 50px; margin: 50px 0px; background-color: #fff; box-shadow: 0px 4px 4px 0 rgba(0, 0, 0, 0), 0 0px 10px 0 rgba(0, 0, 0, 0.237);}
 .wrap-3 .col-6 .col-8 {flex-direction: column; justify-content: space-around;}
 .wrap-3 .col-6 .col-8 span{color: #000; font-weight: 600;}
 .wrap-3 .col-6 .col-8 a{color: #4e4e4e; }
@@ -92,7 +92,7 @@ span{display: inline-block;}
 .wrap-4 .col-4{width: 100%; display: flex;}
 .wrap-4 .row h2{color: #000; line-height: 1.5rem; font-size: 2rem;}
 .wrap-4 .container{padding: 50px 0px 0px 0px; }
-.wrap-4 .card{height: 415px; padding: 50px 10px; box-shadow: 0px 4px 4px 0 rgba(0, 0, 0, 0.08), 0 0px 10px 0 rgba(0, 0, 0, 0.8);}
+.wrap-4 .card{height: 415px; padding: 50px 10px; box-shadow: 0px 4px 4px 0 rgba(0, 0, 0, 0), 0 0px 10px 0 rgba(0, 0, 0, 0.237);}
 .wrap-4 span{ border: 10px solid #fb3135; color: #000; border-radius: 50%; padding: 2rem; font-size: 2rem;}
 .wrap-4 h3{margin: 20px 0px; font-size: 1.5rem; color: #000;}
 
