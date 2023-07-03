@@ -86,7 +86,7 @@ span{display: inline-block;}
 .wrap-3 .row .col-12 .p-html, .p-css,.p-js, .p-bs, .p-jq, .p-sass {line-height: 1.5rem; font-size: 1.2rem; width: 0%;  background-color: #e03a3c;  color: #e03a3d00; border-radius: 10px; transition: width 1s ease;}
 
 .wrap-3 .col-6 h2{margin-bottom: 20px; font-size: 2rem; line-height: 2rem; color: #000;}
-.wrap-3 .col-6 p{margin-bottom: 20px; font-size: 1.5rem; line-height: 3rem; color: #4e4e4e;}
+.wrap-3 .col-6 p{margin-bottom: 20px; font-size: 1.2rem; line-height: 3rem; color: #4e4e4e;}
 
 .wrap-4 .row{text-align: center; margin: 50px 0px;}
 .wrap-4 .col-4{width: 100%; display: flex;}
