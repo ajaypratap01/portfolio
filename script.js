@@ -43,6 +43,30 @@
       document.querySelector('.p-jq').style.width = '0%';
       document.querySelector('.p-sass').style.width = '0%';
     }
+    //  function for scroll active
+    let actives=document.querySelectorAll("#menu li a")
+    if(sP<=50 && sP<=600){
+      actives[0].style.color="red"  
+      actives[1].style.color="black"  
+      actives[2].style.color="black"  
+      actives[3].style.color="black"  
+    } else if(sP>=640 && sP<=813){
+      actives[0].style.color="black"  
+      actives[1].style.color="red"  
+      actives[2].style.color="black"  
+      actives[3].style.color="black"
+    }else if(sP>=1600 && sP<=2200){
+      actives[0].style.color="black"  
+      actives[1].style.color="black"  
+      actives[2].style.color="red"  
+      actives[3].style.color="black"
+    }else if(sP>=2200 && sP<=3200){
+      actives[0].style.color="black"  
+      actives[1].style.color="black"
+      actives[2].style.color="black"  
+      actives[3].style.color="red"  
+    }
+    
   }); 
 // function for small devices
   document.addEventListener("DOMContentLoaded", function() {
@@ -73,6 +97,66 @@
     
   
   });
+
+// function for projects
+  document.addEventListener("DOMContentLoaded", function(){
+    document.getElementById("all-work").addEventListener("click",function(){
+        let other=document.querySelectorAll(".all")
+            other.forEach((e)=>{
+                e.style.display="block"
+            })
+      
+      document.getElementById("count").textContent=`total project = 9`  
+    })
+    document.getElementById("js-work").addEventListener("click",function(){
+        let other=document.querySelectorAll(".non-js")
+        let jswork=document.querySelectorAll(".js")
+            other.forEach((e)=>{
+                if(e.style.display="block"){
+                    e.style.display="none"
+                }
+                
+            })
+            jswork.forEach((e)=>{
+                if(e.style.display==="none"){
+                    e.style.display="block"
+                }
+            })
+            document.getElementById("count").textContent=`javascript project = 5`
+    })
+    document.getElementById("j-query").addEventListener("click",function(){
+        let other=document.querySelectorAll(".non-jq")
+        let jqwork=document.querySelectorAll(".jquery")
+            other.forEach((e)=>{
+                if(e.style.display="block"){
+                    e.style.display="none"
+                }
+            })
+            jqwork.forEach((e)=>{
+                if(e.style.display==="none"){
+                    e.style.display="block"
+                }
+            })
+            document.getElementById("count").textContent= `jQuery project = 2`
+    })
+    document.getElementById("s-n-b").addEventListener("click",function(){
+        let other=document.querySelectorAll(".non-sass-b")
+        let S_work=document.querySelectorAll(".sass-b")
+            other.forEach((e)=>{
+                if(e.style.display="block"){
+                    e.style.display="none"
+                }
+            })
+            S_work.forEach((e)=>{
+                if(e.style.display==="none"){
+                    e.style.display="block"
+                }
+            })
+            document.getElementById("count").textContent=`bootstarp & sass project = 2`
+    })
+  })
+  
+  
   
   
   
