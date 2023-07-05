@@ -100,7 +100,14 @@ span{display: inline-block;}
 .wrap-5 .container{padding-top: 80px;}
 .wrap-5 h2{color: #000; font-size: 2rem; text-align: center; margin-bottom: 20px;}
 .wrap-5 p{color: #000; font-size: 1.5rem; text-align: center; margin-bottom: 20px;}
-.wrap-5 p a{background-color: #e03a3c; color: #fff; border-radius: 5px; padding: 5px 25px; display: inline-block; font-size: 1.5rem; margin: 0px 5px; margin: 20px 0px;}
+/* changed */
+.wrap-5 p a{color: #e03a3c;  padding: 5px; display: inline-block; font-size: 1.5rem;}
+/* changed add */
+.wrap-5 ul li{margin-right: 20px; padding: 5px 0px;}
+.wrap-5 ul li a{padding: 6px 20px; background-color: #de2528; color: #fff; border-radius: 5px; outline: #fff; border: none;}
+.wrap-5 #count{ margin-top: 10px; color: #000; font-weight: 500; letter-spacing: 1px; text-transform: uppercase;}
+
+
 .wrap-5 .row .col-4 a{width: 100%;}
 .wrap-5 .row .col-4 .card{ height: 350px; margin: 20px 0px; padding: 20px; text-align: center; display: flex; flex-direction: column; justify-content: space-around; background-color: #e03a3d; font-size: 2rem; align-items: center; color: #fff; border-radius: 5px;}
 .wrap-5 .row .col-4 .card span{font-size: 5rem;}
@@ -141,7 +148,11 @@ footer .copyright strong{color: #fff;}
     header #menu{display: none; position: absolute; flex-direction: column; right: 0px; left: 0px; top: 63px; background-color: #f8f8f8; z-index: 10; }
     header #menu li{margin: 10px;}
     #btn-1{ border: none; outline: none; display: block;}
-    .wrap-5 .col-12 a{margin: 5px 0px;}
+    /* changed */
+    .wrap-5 ul{justify-content: space-around; flex-wrap: wrap; text-align: center;}
+    .wrap-5 ul li{margin: 0px; flex-basis: 50%; max-width: 50%;}
+    .wrap-5 ul li a{margin: 0px; width: 75%; padding: 6px 0px;}
+
 
 }
 @media screen and (max-width: 620px){
@@ -160,10 +171,14 @@ footer .copyright strong{color: #fff;}
 }
 @media screen and (max-width: 520px){
         .wrap-2 .row{height: auto; padding: 50px 0px;}
-
         .wrap-3 .about{padding: 20px 0px;}
+        /* changed */
+        .wrap-5 ul{justify-content: space-around; flex-wrap: wrap; text-align: center;}
+        .wrap-5 ul li{margin: 0px; flex-basis: 100%; max-width: 100%;}
+        .wrap-5 ul li a{margin: 0px; width: 100%; padding: 6px 0px;}
+
 }
 @media screen and (max-width: 420px){
-    .wrap-2 .row{height: auto; padding: 50px 0px;}
-    .wrap-5 .col-4{flex-basis: 100%; max-width: 100%;}
+        .wrap-2 .row{height: auto; padding: 50px 0px;}
+        .wrap-5 .col-4{flex-basis: 100%; max-width: 100%;}
 }
