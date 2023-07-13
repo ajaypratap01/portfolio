@@ -106,7 +106,7 @@
                 e.style.display="block"
             })
       
-      document.getElementById("count").textContent=`total project = 9`  
+      document.getElementById("count").textContent=`total project = 10`  
     })
     document.getElementById("js-work").addEventListener("click",function(){
         let other=document.querySelectorAll(".non-js")
