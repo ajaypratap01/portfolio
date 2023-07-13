@@ -122,7 +122,7 @@
                     e.style.display="block"
                 }
             })
-            document.getElementById("count").textContent=`javascript project = 5`
+            document.getElementById("count").textContent=`javascript project = 6`
     })
     document.getElementById("j-query").addEventListener("click",function(){
         let other=document.querySelectorAll(".non-jq")
