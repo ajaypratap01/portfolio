@@ -106,7 +106,7 @@
                 e.style.display="block"
             })
       
-      document.getElementById("count").textContent=`total project = 10`  
+      document.getElementById("count").textContent=`total project = 11`  
     })
     document.getElementById("js-work").addEventListener("click",function(){
         let other=document.querySelectorAll(".non-js")
@@ -122,7 +122,7 @@
                     e.style.display="block"
                 }
             })
-            document.getElementById("count").textContent=`javascript project = 6`
+            document.getElementById("count").textContent=`javascript project = 7`
     })
     document.getElementById("j-query").addEventListener("click",function(){
         let other=document.querySelectorAll(".non-jq")
