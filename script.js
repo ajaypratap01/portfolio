@@ -106,7 +106,7 @@
                 e.style.display="block"
             })
       
-      document.getElementById("count").textContent=`total project = 11`  
+      document.getElementById("count").textContent=`total project = ${other.length}`  
     })
     document.getElementById("js-work").addEventListener("click",function(){
         let other=document.querySelectorAll(".non-js")
@@ -122,7 +122,7 @@
                     e.style.display="block"
                 }
             })
-            document.getElementById("count").textContent=`javascript project = 7`
+            document.getElementById("count").textContent=`javascript project = ${jswork.length}`
     })
     document.getElementById("j-query").addEventListener("click",function(){
         let other=document.querySelectorAll(".non-jq")
@@ -137,7 +137,7 @@
                     e.style.display="block"
                 }
             })
-            document.getElementById("count").textContent= `jQuery project = 2`
+            document.getElementById("count").textContent= `jQuery project = ${jqwork.length}`
     })
     document.getElementById("s-n-b").addEventListener("click",function(){
         let other=document.querySelectorAll(".non-sass-b")
@@ -152,7 +152,7 @@
                     e.style.display="block"
                 }
             })
-            document.getElementById("count").textContent=`bootstarp & sass project = 2`
+            document.getElementById("count").textContent=`bootstarp & sass project = ${S_work.length}`
     })
   })
   
