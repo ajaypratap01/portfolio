@@ -71,7 +71,7 @@
 // function for small devices
   document.addEventListener("DOMContentLoaded", function() {
     let menu = document.querySelector("#menu");
-    let list = menu.children; // Assuming the UL is the first child of #menu
+    let list = menu.children;
     
     // Loop through the list items and add click event listeners
     for (let i = 0; i < list.length; i++) {
